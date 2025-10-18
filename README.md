@@ -1,73 +1,38 @@
-# 🌱 GreenLink  
+# GreenLink
 
-A **full-stack web application** for a sustainable **GreenLink** where users can explore, buy, and manage eco-friendly products.  
+A sustainable materials marketplace platform that connects buyers and sellers of recycled materials, biofuels, and other eco-friendly resources. GreenLink facilitates the circular economy by making it easy to trade sustainable materials and reduce environmental impact.
 
----
+## Features
 
-## 📂 Project Structure  
+- **Sustainable Materials Trading**: Buy and sell recycled plastics, metal scraps, organic waste, and industrial materials
+- **User Authentication**: Secure login and registration system
+- **Shopping Cart**: Add materials to cart with quantity management
+- **Payment Integration**: Secure payment processing with Razorpay
+- **Material Management**: List, browse, and manage sustainable materials
+- **Responsive Design**: Modern UI built with React and Tailwind CSS
 
-<img width="359" height="740" alt="image" src="https://github.com/user-attachments/assets/68c68a89-f67b-4bfc-8188-5c36020619e3" />
+## Tech Stack
 
+- **Frontend**: React, TypeScript, Tailwind CSS, Vite
+- **Backend**: Node.js, Express, MongoDB
+- **Authentication**: JWT tokens
+- **Payment**: Razorpay integration
+- **File Upload**: Cloudinary integration
 
----
+## Getting Started
 
-## 🚀 Features  
-
-- ✅ User Authentication (Signup/Login)  
-- ✅ Product Listings for Green Fuel  
-- ✅ Image Uploads with Cloudinary  
-- ✅ Responsive UI with Tailwind CSS  
-- ✅ API Integration between Frontend & Backend  
-- ✅ Deployment-ready with **Vercel**  
-
----
-
-## 🛠️ Tech Stack  
-
-**Frontend:**  
-- React + Vite  
-- Tailwind CSS  
-- TypeScript  
-
-**Backend:**  
-- Node.js + Express  
-- MongoDB + Mongoose  
-- Cloudinary (for media handling)  
-
-**Deployment:**  
-- Vercel  
-
----
-
-## ⚙️ Installation & Setup  
-
-1. **Clone the repository**  
+1. Install dependencies:
    ```bash
-   git https://github.com/DobariyaKrish7/Green-Fuel-Market
-   cd project
-2. Install dependencies
+   npm install
+   ```
 
-  # For backend
-    cd backend
-    npm install
-    npm start
-  
-  # For frontend
-    cd frontend
-    npm install
-    npm run dev
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-🌍 Environment Variables
+3. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-Create a .env file in the BACKEND folder:
+## Contributing
 
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-cd green-fuel-market
-
-
-
-
+We welcome contributions to make GreenLink even better for sustainable material trading!
