@@ -1,6 +1,6 @@
-# 🌱 Green Fuel Market  
+# 🌱 GreenLink  
 
-A **full-stack web application** for a sustainable **Green Fuel Marketplace** where users can explore, buy, and manage eco-friendly fuel products.  
+A **full-stack web application** for a sustainable **GreenLink** where users can explore, buy, and manage eco-friendly products.  
 
 ---
 
